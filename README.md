@@ -78,9 +78,11 @@ composer global update laravel/installer
 ```
 
 ### اگر بخواهیم که پکیجی رو بعد از این که اون  رو نصب کردیم حذف کنیم با استفاده از composer ما باید ابتدا با دستور پایین ببینیم چه پکیج هایی نصب کرده ایم
-‍‍‍```
+
+```
 composer show --installed
 ```
+
 
 ### اگر بخواهیم میتونیم دنبال پکیجی که نصب کردیم هم بگردیم و ببینیم چه اسمی داره و زمان نصب دقیقا همون اسم رو به کار ببریم
 
@@ -88,7 +90,9 @@ composer show --installed
 composer show --install | grep debugbar  // barryvdh/laravel-debugbar
 ```
 
+
 ### بعد از پیدا کردن پکیج مورد نظر کافیه کامند پایین رو به کار ببریم برای حذف کردن اون
+
 ```
-composer remove barryvdh/laravel-debugbar
+composer show --install | grep debugbar  // barryvdh/laravel-debugbar
 ```
