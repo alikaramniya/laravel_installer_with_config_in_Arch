@@ -94,5 +94,5 @@ composer show --install | grep debugbar  // barryvdh/laravel-debugbar
 ### بعد از پیدا کردن پکیج مورد نظر کافیه کامند پایین رو به کار ببریم برای حذف کردن اون
 
 ```
-composer show --install | grep debugbar  // barryvdh/laravel-debugbar
+composer remove barryvdh/laravel-debugbar
 ```
